@@ -1,7 +1,7 @@
 Predicting Borrower Delinquency Risk: A Logistic Regression Approach 
 Writing Sample — Quantitative and Econometric Analysis 
 Carol Shekinah 
-Project.ipynb 
+ 
 1. Introduction and Motivation 
 Lending institutions routinely need to assess the likelihood that a borrower will become delinquent on their obligations, both to price risk appropriately and to manage portfolio-level exposure. This note presents a logistic regression model that estimates the probability of borrower default using a cross-sectional dataset of 10,000 individual loan records sourced from Kaggle. The dataset includes borrower-level information on income, employment, homeownership, credit history, and loan characteristics. 
 The objective of the exercise is twofold: first, to build a classification model that can flag higher-risk borrowers with reasonable accuracy; and second, to interpret the estimated coefficients in order to understand which borrower and credit-history characteristics are most strongly associated with default risk. The analysis is conducted in Python using pandas, scikit-learn, and seaborn, and follows a standard applied econometric workflow: data cleaning, exploratory analysis, model specification, estimation, and out-of-sample evaluation. 
